@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+.carousel-inner img {
+    width: auto;
+    height: 100vh;
+    object-fit: cover;
+    /* position: absolute; */
+}
+
+/* .customImage {
+    height: 700px;
+} */
+
+.navbar-scrolled {
+    background-color: #212529 !important;
+}
+
+.dark {
+    background: #212529;
+    color: rgb(206, 119, 145);
+    transition: all 0.5s;
+}
+
+:root {
+    --bg-red: #db1f32;
+    --text-red: #db1f32;
+    --bg-gray: #212529;
+}
+
+.bg-red {
+    background: var(--bg-red);
+}
+
+.text-red {
+    color: var(--text-red);
+}
+
+.bg-gray {
+    background: var(--bg-gray);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-align: left;
+}
+
+.sort {
+    padding: 10px 10px;
+    background: #ffffff;
+    border: 1px solid #212529;
+    border-radius: 30px;
+    text-align: center;
+}
+
+select {
+    border: none;
+    outline: none;
+}
+
+.card {
+    border: none;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    display: flex;
+    justify-content: center;
+    object-fit: none
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 180px;
+}
+
+.Customcard {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px 8px 0 rgb(245, 245, 245), 0 2px 20px 0 rgba(166, 166, 166, 0.03);
+
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: var(--text-red);
+}
+
+/* @media only screen and (max-width:767px) {
+    .card {
+        margin-bottom: 15px
+    }
+} */
+
+/* @media only screen and (max-width:768px) and (max-width:991px) {
+
+
+    .card {
+        margin-bottom: 15px
+    }
+
+    .form {
+        margin-bottom: 80px;
+    }
+} */
+
+/* @media (min-width: 768px) {
+
+    .container,
+    .container-md,
+    .container-sm {
+        max-width: 720px;
+        margin-bottom: 80px;
+    }
+} */
+
+/* 
+    @media screen and (min-width :600px) {
+        .carousel-caption {
+            font-size: 30px;
+        }
+    } */
